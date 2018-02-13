@@ -1,0 +1,24 @@
+.intro-background {
+  background: url(../img/main_header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  /*filter: brightness(50%);*/
+}
+.intro-navbar {
+  position: fixed; width: 100%;
+  top: 0;
+  background-color: #00000030;
+}
+
+.navbar .navbar-nav a:link, .navbar a:link {
+  color: white;
+}
+
+.navbar .navbar-nav .active a:link, .navbar .active a:link{
+  color: #aaaaaa;
+}
+
+.navbar .navbar-nav a:hover, .navbar-default .navbar-nav a:focus {
+  color: #FFC0CB;
+}
